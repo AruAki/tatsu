@@ -3,7 +3,7 @@
 	"id": "tatsu",
 	"version": "${version}",
 	"name": "Tatsu",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A small mod that adds random items into the game.",
 	"authors": [
 		"Aru Aki"
 	],
@@ -28,9 +28,10 @@
 		"fabricloader": ">=0.16.5",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"geckolib": ">=4.4.4"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"better-combat": ">=1.8.6+1.20.1"
 	}
 }
