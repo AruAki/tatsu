@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "  #",
+      " S ",
+      "W  "
+  ],
+  "key": {
+      "#": {
+          "item": "tatsu:crowens_blade_top"
+      },
+      "S": {
+          "item": "tatsu:crowens_blade_middle"
+      },
+      "W": {
+          "item": "tatsu:crowens_blade_bottom"
+      }
+  },
+  "result": {
+      "item": "tatsu:crowens_blade_full",
+      "count": 1
+  }
+}

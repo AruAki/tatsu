@@ -1,0 +1,90 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"misc.idle": {
+			"loop": true,
+			"animation_length": 10,
+			"bones": {
+				"Emblem": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"5.0": {
+							"vector": [180, 180, 180]
+						},
+						"10.0": {
+							"vector": [360, 360, 360]
+						}
+					}
+				},
+				"guards": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"5.0": {
+							"vector": [0, -180, 0]
+						},
+						"10.0": {
+							"vector": [0, -360, 0]
+						}
+					}
+				},
+				"spin": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"5.0": {
+							"vector": [180, 0, 0]
+						},
+						"10.0": {
+							"vector": [360, 0, 0]
+						}
+					}
+				},
+				"spin2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"5.0": {
+							"vector": [180, 0, 0]
+						},
+						"10.0": {
+							"vector": [360, 0, 0]
+						}
+					}
+				},
+				"spin3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"5.0": {
+							"vector": [180, 0, 0]
+						},
+						"10.0": {
+							"vector": [360, 0, 0]
+						}
+					}
+				},
+				"spin4": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"5.0": {
+							"vector": [180, 0, 0]
+						},
+						"10.0": {
+							"vector": [360, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

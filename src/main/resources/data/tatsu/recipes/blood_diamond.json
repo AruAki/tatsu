@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "#R#",
+      "RDR",
+      "#R#"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:dragon_breath"
+      },
+      "R": {
+          "item": "minecraft:redstone_block"
+      },
+      "D": {
+          "item": "minecraft:diamond"
+      }
+  },
+  "result": {
+      "item": "tatsu:blood_diamond",
+      "count": 1
+  }
+}

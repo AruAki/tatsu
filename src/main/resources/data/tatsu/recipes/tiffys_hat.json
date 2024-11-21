@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      " # ",
+      "PGP",
+      "#B#"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:leather"
+      },
+      "P": {
+          "item": "minecraft:purple_dye"
+      },
+      "G": {
+          "item": "minecraft:gold_nugget"
+      },
+      "B": {
+          "item": "minecraft:black_dye"
+      }
+  },
+  "result": {
+      "item": "tatsu:tiffys_hat",
+      "count": 1
+  }
+}

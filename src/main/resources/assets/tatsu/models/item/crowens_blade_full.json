@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tatsu:item/crowens_blade_full"
+  }
+}

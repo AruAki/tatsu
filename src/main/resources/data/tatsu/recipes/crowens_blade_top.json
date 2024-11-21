@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      " # ",
+      "D#D",
+      "D#D"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:iron_block"
+      },
+      "D": {
+          "item": "tatsu:blood_diamond"
+      }
+  },
+  "result": {
+      "item": "tatsu:crowens_blade_top",
+      "count": 1
+  }
+}

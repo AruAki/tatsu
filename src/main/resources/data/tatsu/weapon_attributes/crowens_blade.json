@@ -1,0 +1,7 @@
+{
+  "parent": "bettercombat:claymore",
+  "attributes": {
+    "pose": "two_handed",
+    "attack_range": 3.5
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      " # ",
+      "#N#",
+      " # "
+  ],
+  "key": {
+      "#": {
+          "item": "tatsu:crowens_crossguard_part"
+      },
+      "N": {
+          "item": "minecraft:nether_star"
+      }
+  },
+  "result": {
+      "item": "tatsu:crowens_crossguard",
+      "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "  #",
+      " N ",
+      "O  "
+  ],
+  "key": {
+      "#": {
+          "item": "tatsu:crowens_blade_full"
+      },
+      "N": {
+          "item": "tatsu:crowens_crossguard"
+      },
+      "O": {
+          "item": "tatsu:crowens_hilt"
+      }
+  },
+  "result": {
+      "item": "tatsu:crowens_blade",
+      "count": 1
+  }
+}

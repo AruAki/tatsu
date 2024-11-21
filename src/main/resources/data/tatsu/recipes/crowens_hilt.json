@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "# #",
+      "nDn",
+      "#n#"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:obsidian"
+      },
+      "n": {
+          "item": "minecraft:netherite_ingot"
+      },
+      "D": {
+          "item": "tatsu:blood_diamond"
+      }
+  },
+  "result": {
+      "item": "tatsu:crowens_hilt",
+      "count": 1
+  }
+}

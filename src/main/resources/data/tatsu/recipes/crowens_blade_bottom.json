@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "#I#",
+      "#I#",
+      " n "
+  ],
+  "key": {
+      "#": {
+          "item": "tatsu:blood_diamond"
+      },
+      "I": {
+          "item": "minecraft:iron_block"
+      },
+      "n": {
+          "item": "minecraft:netherite_ingot"
+      }
+  },
+  "result": {
+      "item": "tatsu:crowens_blade_bottom",
+      "count": 1
+  }
+}
