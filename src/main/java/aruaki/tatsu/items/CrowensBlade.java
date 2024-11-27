@@ -4,7 +4,7 @@ import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 import aruaki.tatsu.client.renderer.CrowensBladeRenderer;
-import aruaki.tatsu.items.Materials.CrowensMaterials;
+import aruaki.tatsu.items.Materials.TatsuToolMaterials;
 import net.minecraft.item.SwordItem;
 import net.minecraft.client.render.item.BuiltinModelItemRenderer;
 import software.bernie.geckolib.animatable.GeoItem;
@@ -23,7 +23,7 @@ public final class CrowensBlade extends SwordItem implements GeoItem {
 	private final Supplier<Object> renderProvider = GeoItem.makeRenderer(this);
 
   public CrowensBlade(Settings settings) {
-		super(CrowensMaterials.INSTANCE, 5, -3f, settings);
+		super(TatsuToolMaterials.CROWENS_BLADE, 5, -3f, settings);
 
 		// Register our item as server-side handled.
 		// This enables both animation data syncing and server-side animation triggering
