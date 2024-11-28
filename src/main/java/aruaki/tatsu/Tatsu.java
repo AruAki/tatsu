@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import aruaki.tatsu.events.EventsListener;
 import aruaki.tatsu.registries.TatsuItems;
 
 public class Tatsu implements ModInitializer {
@@ -18,7 +19,7 @@ public class Tatsu implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		TatsuItems.initialize();
-
+		EventsListener.initialize();
 		
 		LOGGER.info("Tatsu Initialized");
 	}

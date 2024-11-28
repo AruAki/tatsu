@@ -34,6 +34,8 @@ public class TatsuItems {
   public static final Item CROWENS_BLADE_BOTTOM = register(new Item(new Item.Settings().maxCount(1)), "crowens_blade_bottom");
   public static final Item CROWENS_BLADE_FULL = register(new Item(new Item.Settings().maxCount(1)), "crowens_blade_full");
   public static final Item CROWENS_BLADE = registerAnimatedItem("crowens_blade", new CrowensBlade(new Item.Settings()));
+
+  public static final Item AURELAZURE = registerAnimatedItem("aurelazure", new Aurelazure(new Item.Settings()));
   
   public static final RegistryKey<ItemGroup> CUSTOM_ITEM_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(Tatsu.MOD_ID, "item_group"));
   public static final ItemGroup CUSTOM_ITEM_GROUP = FabricItemGroup.builder()
@@ -54,6 +56,7 @@ public class TatsuItems {
       itemGroup.add(TatsuItems.CROWENS_BLADE_BOTTOM);
       itemGroup.add(TatsuItems.CROWENS_BLADE_FULL);
       itemGroup.add(TatsuItems.CROWENS_BLADE);
+      itemGroup.add(TatsuItems.AURELAZURE);
     });
   }
 

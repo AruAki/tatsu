@@ -7,6 +7,7 @@ import net.minecraft.recipe.Ingredient;
 
 public class TatsuToolMaterials implements ToolMaterial {
   public static final TatsuToolMaterials CROWENS_BLADE = new TatsuToolMaterials(4000, 8, 0, 0, 16, null);
+  public static final TatsuToolMaterials AURELAZURE = new TatsuToolMaterials(2000, 4, 0, 0, 16, null);
 
   private final int durability;
   private final int attackDamage;

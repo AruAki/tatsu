@@ -13,5 +13,9 @@
   "item.tatsu.crowens_blade_top": "Crowen's Blade Top",
   "item.tatsu.crowens_blade_middle": "Crowen's Blade Middle",
   "item.tatsu.crowens_blade_bottom": "Crowen's Blade Bottom",
-  "item.tatsu.crowens_blade_full": "Crowen's Blade"
+  "item.tatsu.crowens_blade_full": "Crowen's Blade",
+  "item.tatsu.aurelazure": "Aurelazure",
+  "item.tatsu.aurelazure.tooltip.1": "The blade seems to be made out of a strange light blue gem",
+  "item.tatsu.aurelazure.tooltip.1.1": "that is different than the one you know.",
+  "item.tatsu.aurelazure.tooltip.2": "While holding the sword you feel more nimble."
 }
